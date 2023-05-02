@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="winner disable">
+        <h1 class="winner-title"
+            style="font-weight: bold; background: black; height: 50px; padding: 15px; border-radius: 20px;"></h1>
+        <div class="restart-game">
+            <p>Restart Game</p>
+        </div>
+    </div>
+    <div class="select-player">
+        <p>Select your Option:</p>
+        <h1 class="player-name">Player 1</h1>
+        <div class="selection">
+            <div id="x" class="sel">x</div>
+            <div id="o" class="sel">o</div>
+        </div>
+    </div>
+    <main>
+        <div class="player">
+
+            <div class="player1">
+                <p>Player 1</p>
+                <p class="selected" style="font-weight: bold; font-size: 2.2em">x</p>
+            </div>
+            <div class="player2">
+                <p>Player 2</p>
+                <p class="selected" style="font-weight: bold; font-size: 2.2em">o</p>
+            </div>
+        </div>
+        <div class="btns">
+            <div data-cell-index="0" class="btn"></div>
+            <div data-cell-index="1" class="btn"></div>
+            <div data-cell-index="2" class="btn"></div>
+            <div data-cell-index="3" class="btn"></div>
+            <div data-cell-index="4" class="btn"></div>
+            <div data-cell-index="5" class="btn"></div>
+            <div data-cell-index="6" class="btn"></div>
+            <div data-cell-index="7" class="btn"></div>
+            <div data-cell-index="8" class="btn"></div>
+        </div>
+    </main>
+</body>
+<script src="./main.js"></script>
+
+</html>
